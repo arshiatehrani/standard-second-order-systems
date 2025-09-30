@@ -115,11 +115,17 @@ The time required for the response to settle within a defined percentage (usuall
 
 $T_s$ is inversely proportional to the **Decay Rate** ($\sigma = \zeta\omega_n$):
 
-| Criterion | Formula for Settling Time $\mathbf{T_s}$ |
-| :-------- | :--------------------------------------- |
-| **2% Criterion** (More common) | ```math
-mathbf{T_{s,2\%}} \approx \frac{4}{\zeta \omega_n} = \frac{4}{\sigma}``` |
-| **5% Criterion** (Less conservative) | $\mathbf{T_{s,5\%}} \approx \frac{3}{\zeta \omega_n} = \frac{3}{\sigma}$ |
+**2% Criterion (More common):**  
+
+```math
+T_{s,2\%} \approx \dfrac{4}{\zeta \omega_n} = \dfrac{4}{\sigma}
+```
+
+**5% Criterion (Less conservative):**  
+```math
+T_{s,5\%} \approx \dfrac{3}{\zeta \omega_n} = \dfrac{3}{\sigma}
+```
+
 
 
 *Relation to Poles:* Primarily determined by the **real part** of the pole ($\sigma$).
