@@ -126,7 +126,9 @@ $T_s$ is inversely proportional to the **Decay Rate** ($\sigma = \zeta\omega_n$)
 ### 5. Rise Time ($T_r$)
 The time required for the response to rise from $10\%$ to $90\%$ of its final value (for overdamped/critically damped) or from $0\%$ to $100\%$ (for underdamped). A common approximation for $0.1 < \zeta < 1.0$ is used:
 
-$$\mathbf{T_r} \approx \frac{1.8}{\omega_n} \text{}$$
+```math
+\mathbf{T_r} \approx \frac{1.8}{\omega_n} \text{}
+```
 
 ***
 
@@ -186,7 +188,7 @@ This simulated output compares the unit step response for the four stable dampin
 
 ### 2. Trajectory Graph (Phase Plane Comparison)
 
-This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on the phase plane, showing the path taken by the system towards or away from the equilibrium point $(1, 0)$.
+This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c(t)$) on the phase plane, showing the path taken by the system towards or away from the equilibrium point $(1, 0)$.
 
 *   **Undamped ($\zeta=0$):** Closed ellipse/circle (Red Dashed).
 *   **Underdamped ($0 < \zeta < 1$):** Converging spiral (Blue Solid).
