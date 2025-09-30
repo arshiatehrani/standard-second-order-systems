@@ -126,8 +126,6 @@ T_{s,2\%} \approx \dfrac{4}{\zeta \omega_n} = \dfrac{4}{\sigma}
 T_{s,5\%} \approx \dfrac{3}{\zeta \omega_n} = \dfrac{3}{\sigma}
 ```
 
-
-
 *Relation to Poles:* Primarily determined by the **real part** of the pole ($\sigma$).
 
 ### 5. Rise Time ($T_r$)
