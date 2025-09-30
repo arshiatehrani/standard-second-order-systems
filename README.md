@@ -28,7 +28,7 @@ s^2 + 2\zeta\omega_n s + \omega_n^2 = 0 \text{}
 The two poles, $s_{1, 2}$, are found using the quadratic formula:
 
 ```math
-s_{1, 2} = -\zeta\omega_n \pm j \omega_n\sqrt{\zeta^2 - 1} \text{}
+s_{1, 2} = -\zeta\omega_n \pm j \omega_n\sqrt{1 - \zeta^2} \text{}
 ```
 
 The term **Decay Rate** ($\sigma$) is often defined as the real part of the poles:
