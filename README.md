@@ -158,7 +158,7 @@ $$\mathbf{\zeta = \cos(\theta)} \text{}$$
 
 ### B. Trajectory Graphs (Phase Plane Analysis)
 
-A **trajectory graph** (or **phase portrait**) plots the system's output variable (position, $c(t)$) versus its derivative (velocity, $\dot{c}(t)$). This visualizes the system's path from its initial state to the **equilibrium point**.
+A **trajectory graph** (or **phase portrait**) plots the system's output variable (position, $c$) versus its derivative (velocity, $\dot{c}$). This visualizes the system's path from its initial state to the **equilibrium point**.
 
 For a unit step input, the equilibrium point (where the system settles) is at $(\mathbf{1}, \mathbf{0})$. Arrows on the trajectories indicate the direction of time.
 
@@ -188,7 +188,7 @@ This simulated output compares the unit step response for the four stable dampin
 
 ### 2. Trajectory Graph (Phase Plane Comparison)
 
-This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c(t)$) on the phase plane, showing the path taken by the system towards or away from the equilibrium point $(1, 0)$.
+This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on the phase plane, showing the path taken by the system towards or away from the equilibrium point $(1, 0)$.
 
 *   **Undamped ($\zeta=0$):** Closed ellipse/circle (Red Dashed).
 *   **Underdamped ($0 < \zeta < 1$):** Converging spiral (Blue Solid).
