@@ -201,3 +201,45 @@ This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on t
 *   **Unstable ($\zeta < 0$):** Diverging spiral (Black Dotted).
 
 ![Trajectory Graph](Figure_2.png)
+
+***
+
+For the standard second-order system with unit-step input $u(t)=1$ and zero initial conditions, the output $y(t)$ is given piecewise by the damping ratio $\zeta$, with $\omega_d=\omega_n\sqrt{1-\zeta^2}$ and $\alpha=\sqrt{\zeta^2-1}$.
+
+### Assumptions
+- Differential equation: $ \dfrac{d^2y}{dt^2}+2\zeta\omega_n\dfrac{dy}{dt}+\omega_n^2 y=\omega_n^2\,u(t)$  
+- Step input: $u(t)=1$ for $t\ge 0$, and $y(0)=0$, $\dot y(0)=0$
+
+### Underdamped ($0<\zeta<1$)
+```math
+y(t)=1-e^{-\zeta\omega_n t}\left[\cos(\omega_d t)+\frac{\zeta}{\sqrt{1-\zeta^2}}\sin(\omega_d t)\right], \quad \omega_d=\omega_n\sqrt{1-\zeta^2}
+````
+
+### Critically damped ($\zeta=1$)
+
+```math
+y(t)=1-e^{-\omega_n t}\left(1+\omega_n t\right)
+```
+
+### Overdamped ($\zeta>1$)
+
+Let $\alpha=\sqrt{\zeta^2-1}$ and define $a_1=\omega_n(\zeta-\alpha)$, $a_2=\omega_n(\zeta+\alpha)$. Then
+
+```math
+y(t)=1-\frac{a_2 e^{-a_1 t}-a_1 e^{-a_2 t}}{a_2-a_1}
+=1-\frac{(\zeta+\alpha)e^{-(\zeta-\alpha)\omega_n t}-(\zeta-\alpha)e^{-(\zeta+\alpha)\omega_n t}}{2\alpha}
+```
+
+### General input (optional)
+
+For any input $u(t)$, the solution is the convolution with the impulse response $g(t)$:
+
+```math
+y(t)=\int_0^t g(\tau)\,u(t-\tau)\,d\tau
+```
+
+where
+
+* $g(t)=\dfrac{1}{\omega_d}e^{-\zeta\omega_n t}\sin(\omega_d t)$ for $0<\zeta<1$
+* $g(t)=t,e^{-\omega_n t}$ for $\zeta=1$
+* $g(t)=\dfrac{1}{2\alpha\omega_n}\left(e^{-(\zeta-\alpha)\omega_n t}-e^{-(\zeta+\alpha)\omega_n t}\right)$ for $\zeta>1$
