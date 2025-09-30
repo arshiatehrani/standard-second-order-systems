@@ -6,7 +6,9 @@ This document provides a comprehensive explanation of the control theory governi
 
 The analysis of second-order systems is based on the **standard closed-loop transfer function** $G(s)$:
 
-$$G(s) = \frac{Y(s)}{R(s)} = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2} \text{}$$
+```math
+G(s) = \frac{Y(s)}{R(s)} = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2} \text{}
+```
 
 This function is defined by two **core parameters**:
 
@@ -19,15 +21,22 @@ This function is defined by two **core parameters**:
 
 The system's dynamic behavior is entirely governed by its **poles**, which are the roots of the **characteristic equation**:
 
-$$s^2 + 2\zeta\omega_n s + \omega_n^2 = 0 \text{}$$
+```math
+s^2 + 2\zeta\omega_n s + \omega_n^2 = 0 \text{}
+```
 
 The two poles, $s_{1, 2}$, are found using the quadratic formula:
 
-$$s_{1, 2} = -\zeta\omega_n \pm \omega_n\sqrt{\zeta^2 - 1} \text{}$$
+```math
+s_{1, 2} = -\zeta\omega_n \pm \omega_n\sqrt{\zeta^2 - 1} \text{}
+```
 
 The term **Decay Rate** ($\sigma$) is often defined as the real part of the poles:
 
-$$\mathbf{\sigma} = \zeta\omega_n \text{}$$
+```math
+\mathbf{\sigma} = \zeta\omega_n \text{}
+```
+
 (This $\sigma$ represents the distance of the pole from the imaginary axis in the $s$-plane).
 
 ### Stability Criteria Based on Poles
@@ -67,13 +76,17 @@ The **transient response** refers to the initial behavior of the system before i
 ### 1. Damped Natural Frequency ($\omega_d$)
 This is the actual frequency of oscillation of the decaying response in an underdamped system.
 
-$$\mathbf{\omega_d} = \omega_n\sqrt{1-\zeta^2} \text{}$$
+```math
+\mathbf{\omega_d} = \omega_n\sqrt{1-\zeta^2} \text{}$$
+```
 *Relation to Poles:* $\omega_d$ is the magnitude of the **imaginary part** of the complex conjugate poles.
 
 ### 2. Peak Time ($T_p$)
 The time required for the response to reach the **first peak of the overshoot**. This is a measure of the speed of response.
 
-$$\mathbf{T_p} = \frac{\pi}{\omega_d} = \frac{\pi}{\omega_n\sqrt{1-\zeta^2}} \text{}$$
+```math
+\mathbf{T_p} = \frac{\pi}{\omega_d} = \frac{\pi}{\omega_n\sqrt{1-\zeta^2}} \text{}
+```
 *Relation to Poles:* Primarily determined by the **imaginary part** of the pole ($\omega_d$).
 
 ### 3. Percent Overshoot ($%OS$ or $M_p$)
@@ -85,9 +98,9 @@ The amount the response **overshoots** the final steady-state value, expressed a
 
 Alternatively, it can be defined as:
 
-$$
+```math
 \mathbf{\%OS} = \frac{c(T_p) - c(\infty)}{c(\infty)} \times 100
-$$
+```
 
 **Finding $\zeta$ from Overshoot:** If $M_p$ is the fractional overshoot (e.g., $M_p=0.1$ for $10\%$ overshoot), the damping ratio can be found by inversion:
 $$\mathbf{\zeta} = \frac{|\ln(M_p)|}{\sqrt{\pi^2 + (\ln(M_p))^2}} \text{}$$
