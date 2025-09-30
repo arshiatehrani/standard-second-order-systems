@@ -77,7 +77,7 @@ The **transient response** refers to the initial behavior of the system before i
 This is the actual frequency of oscillation of the decaying response in an underdamped system.
 
 ```math
-\mathbf{\omega_d} = \omega_n\sqrt{1-\zeta^2} \text{}$$
+\mathbf{\omega_d} = \omega_n\sqrt{1-\zeta^2} \text{}
 ```
 *Relation to Poles:* $\omega_d$ is the magnitude of the **imaginary part** of the complex conjugate poles.
 
