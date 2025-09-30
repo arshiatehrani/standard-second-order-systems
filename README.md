@@ -142,7 +142,7 @@ The damping ratio $\zeta$ is a crucial design parameter that controls the charac
 
 | Specification | Relationship with $\zeta$ (Assuming $\omega_n$ is constant) | Impact of **Larger $\zeta$** |
 | :------ | :------ | :------ |
-| **Percent Overshoot ($%OS$)** | Exponentially decreases as $\zeta$ increases. | **Shorter overshoot.** For $\zeta \ge 1$, overshoot is zero. |
+| **Percent Overshoot (%OS)** | Exponentially decreases as $\zeta$ increases. | **Shorter overshoot.** For $\zeta \ge 1$, overshoot is zero. |
 | **Settling Time ($T_s$)** | Inversely proportional to $\zeta$ (via $\sigma = \zeta\omega_n$). | **Shorter settling time** (faster decay), up to the critical point $\zeta=1$. (Past $\zeta=1$, $T_s$ increases). |
 | **Peak Time ($T_p$)** | Increases as $\zeta$ increases. | **Longer peak time** (slower to reach the first peak). |
 | **Damped Frequency ($\omega_d$)** | Decreases as $\zeta$ increases. | **Lower oscillation frequency** (slower oscillations). |
