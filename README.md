@@ -79,7 +79,9 @@ $$\mathbf{T_p} = \frac{\pi}{\omega_d} = \frac{\pi}{\omega_n\sqrt{1-\zeta^2}} \te
 ### 3. Percent Overshoot ($%OS$ or $M_p$)
 The amount the response **overshoots** the final steady-state value, expressed as a percentage. This is a measure of relative stability.
 
-$$\mathbf{\%OS} = 100 \cdot e^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}}$$
+```math
+\mathbf{\%OS} = 100 \cdot e^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}}$
+```
 
 Alternatively, it can be defined as:
 
