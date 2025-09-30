@@ -240,7 +240,7 @@ y(t)=1-e^{-\omega_n t}\left(1+\omega_n t\right)
 
 ### Overdamped ($\zeta>1$)
 
-Let $\alpha=\sqrt{\zeta^2-1}$ and define $a_1=\omega_n(\zeta-\alpha)$, $a_2=\omega_n(\zeta+\alpha)$. Then
+Let $\alpha=\sqrt{\zeta^2-1}$ and define $a_1=\omega_n(\zeta-\alpha)$, $a_2=\omega_n(\zeta+\alpha)$. Then:
 
 ```math
 y(t)=1-\frac{a_2 e^{-a_1 t}-a_1 e^{-a_2 t}}{a_2-a_1}
