@@ -103,7 +103,11 @@ Alternatively, it can be defined as:
 ```
 
 **Finding $\zeta$ from Overshoot:** If $M_p$ is the fractional overshoot (e.g., $M_p=0.1$ for $10\%$ overshoot), the damping ratio can be found by inversion:
-$$\mathbf{\zeta} = \frac{|\ln(M_p)|}{\sqrt{\pi^2 + (\ln(M_p))^2}} \text{}$$
+
+```math
+\mathbf{\zeta} = \frac{|\ln(M_p)|}{\sqrt{\pi^2 + (\ln(M_p))^2}} \text{}
+```
+
 *Relation to Poles:* Depends only on the **Damping Ratio** $\zeta$.
 
 ### 4. Settling Time ($T_s$)
