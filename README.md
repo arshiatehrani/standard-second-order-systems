@@ -224,7 +224,7 @@ For the standard second-order system with unit-step input $u(t)=1$ and zero init
 
 - Step input:
 
-$u(t)=1$ for $t\ge 0$, and $y(0)=0$, $\dot y(0)=0$
+$$u(t)=1$ for $t\ge 0$, and $y(0)=0$, $\dot y(0)=0$$
 
 
 ### Underdamped ($0<\zeta<1$)
