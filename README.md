@@ -175,4 +175,4 @@ This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on t
 *   **Overdamped ($\zeta > 1$):** Slower, direct path to equilibrium (Magenta Solid).
 *   **Unstable ($\zeta < 0$):** Diverging spiral (Black Dotted).
 
-![Trajectory Graph](Figure_2.png)
+![Trajectory Graph](Figure_3.png)
