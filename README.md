@@ -98,8 +98,9 @@ $T_s$ is inversely proportional to the **Decay Rate** ($\sigma = \zeta\omega_n$)
 
 | Criterion | Formula for Settling Time |
 |-----------|----------------------------|
-| **2% (common)** | $T_{s,2\%} \approx \tfrac{4}{\zeta \omega_n} \approx \tfrac{4}{\sigma}$ |
-| **5% (less conservative)** | $T_{s,5\%} \approx \tfrac{3}{\zeta \omega_n} \approx \tfrac{3}{\sigma}$ |
+| **2% (common)** | $T_{s,2\%} \approx \dfrac{4}{\zeta \omega_n} = \dfrac{4}{\sigma}$ |
+| **5% (less conservative)** | $T_{s,5\%} \approx \dfrac{3}{\zeta \omega_n} = \dfrac{3}{\sigma}$ |
+
 
 
 
