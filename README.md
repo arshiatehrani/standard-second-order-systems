@@ -98,7 +98,7 @@ $T_s$ is inversely proportional to the **Decay Rate** ($\sigma = \zeta\omega_n$)
 
 | Criterion | Formula for Settling Time $\mathbf{T_s}$ |
 | :-------- | :--------------------------------------- |
-| **2% Criterion** (More common) | $\mathbf{T_{s,2\%}} \approx \frac{4}{\zeta \omega_n} = \frac{4}{\sigma}$ |
+| **2% Criterion** (More common) | ```math \mathbf{T_{s,2\%}} \approx \frac{4}{\zeta \omega_n} = \frac{4}{\sigma}``` |
 | **5% Criterion** (Less conservative) | $\mathbf{T_{s,5\%}} \approx \frac{3}{\zeta \omega_n} = \frac{3}{\sigma}$ |
 
 
@@ -176,4 +176,3 @@ This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on t
 *   **Unstable ($\zeta < 0$):** Diverging spiral (Black Dotted).
 
 ![Trajectory Graph](Figure_2.png)
-# standard-second-order-systems
