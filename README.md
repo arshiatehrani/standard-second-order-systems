@@ -103,6 +103,7 @@ $T_s$ is inversely proportional to the **Decay Rate** ($\sigma = \zeta\omega_n$)
 
 
 
+
 *Relation to Poles:* Primarily determined by the **real part** of the pole ($\sigma$).
 
 ### 5. Rise Time ($T_r$)
