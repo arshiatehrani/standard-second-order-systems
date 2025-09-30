@@ -31,7 +31,7 @@ The two poles, $s_{1, 2}$, are found using the quadratic formula:
 s_{1, 2} = -\zeta\omega_n \pm \omega_n\sqrt{\zeta^2 - 1} \text{}
 ```
 
-The term **Decay Rate** ($\sigma$) is often defined as the real part of the poles:
+The term **Decay Rate** (\(\sigma)) is often defined as the real part of the poles:
 
 ```math
 \mathbf{\sigma} = \zeta\omega_n \text{}
