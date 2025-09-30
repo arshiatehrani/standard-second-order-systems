@@ -204,11 +204,28 @@ This conceptual visualization plots velocity ($\dot{c}$) vs. position ($c$) on t
 
 ***
 
-For the standard second-order system with unit-step input $u(t)=1$ and zero initial conditions, the output $y(t)$ is given piecewise by the damping ratio $\zeta$, with $\omega_d=\omega_n\sqrt{1-\zeta^2}$ and $\alpha=\sqrt{\zeta^2-1}$.
+For the standard second-order system with unit-step input $u(t)=1$ and zero initial conditions, the output $y(t)$ is given piecewise by the damping ratio $\zeta$, with:
+
+ ```math
+ \omega_d=\omega_n\sqrt{1-\zeta^2}
+ ```
+
+ and
+
+ ```math
+ \alpha=\sqrt{\zeta^2-1}
+ ```
 
 ### Assumptions
-- Differential equation: $ \dfrac{d^2y}{dt^2}+2\zeta\omega_n\dfrac{dy}{dt}+\omega_n^2 y=\omega_n^2\,u(t)$  
-- Step input: $u(t)=1$ for $t\ge 0$, and $y(0)=0$, $\dot y(0)=0$
+- Differential equation:
+```math
+\dfrac{d^2y}{dt^2}+2\zeta\omega_n\dfrac{dy}{dt}+\omega_n^2 y=\omega_n^2\,u(t)
+```
+
+- Step input:
+```math
+$u(t)=1$ for $t\ge 0$, and $y(0)=0$, $\dot y(0)=0
+```
 
 ### Underdamped ($0<\zeta<1$)
 ```math
